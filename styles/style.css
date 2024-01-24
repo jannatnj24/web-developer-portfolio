@@ -1,7 +1,7 @@
 /* common shared styles*/
 body {
-    font-family:  sans-serif;
-    
+    font-family: sans-serif;
+
 }
 
 .btn-primary {
@@ -12,10 +12,11 @@ body {
     padding: 15px 35px;
     margin-bottom: 10px;
 }
+
 .btn-c {
     border-radius: 5px;
     background: #faf8f7;
-    color:#FD6E0A ;
+    color: #FD6E0A;
     font-size: 20px;
     padding: 15px 35px;
     border-color: #FD6E0A;
@@ -32,7 +33,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
 .nav-title {
@@ -62,7 +63,7 @@ nav a {
     background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size:50%;
+    background-size: 50%;
 }
 
 .banner {
@@ -91,25 +92,39 @@ nav a {
     font-size: 18px;
     line-height: 30px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 500px;
 }
-.developer-img{
-height: 530px; 
+
+.developer-img {
+    height: 530px;
 }
 
 /* main section styles */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
 
 /* about section styles */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px 0;
     text-align: center;
 }
-.section-description{
+
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
